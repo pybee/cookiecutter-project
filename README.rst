@@ -8,8 +8,8 @@ Quickstart
 
 In your virtualenv, install {{ cookiecutter.formal_name }}, and then run it::
 
-    $ pip install {{ cookiecutter.name }}
-    $ {{ cookiecutter.name }}
+    $ pip install {{ cookiecutter.repo_name }}
+    $ {{ cookiecutter.repo_name }}
 
 This will pop up a GUI window.
 
@@ -60,11 +60,11 @@ Contributing
 If you experience problems with {{ cookiecutter.formal_name }}, `log them on GitHub`_. If you
 want to contribute code, please `fork the code`_ and `submit a pull request`_.
 
-.. _Read The Docs: http://{{ cookiecutter.name }}.readthedocs.org
+.. _Read The Docs: http://{{ cookiecutter.repo_name }}.readthedocs.org
 .. _@pybeeware on Twitter: https://twitter.com/pybeeware
 .. _BeeWare Users Mailing list: https://groups.google.com/forum/#!forum/beeware-users
 .. _BeeWare Developers Mailing list: https://groups.google.com/forum/#!forum/beeware-developers
-.. _log them on Github: https://github.com/pybee/{{ cookiecutter.name }}/issues
-.. _fork the code: https://github.com/pybee/{{ cookiecutter.name }}
-.. _submit a pull request: https://github.com/pybee/{{ cookiecutter.name }}/pulls
+.. _log them on Github: https://github.com/pybee/{{ cookiecutter.repo_name }}/issues
+.. _fork the code: https://github.com/pybee/{{ cookiecutter.repo_name }}
+.. _submit a pull request: https://github.com/pybee/{{ cookiecutter.repo_name }}/pulls
 

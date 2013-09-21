@@ -8,8 +8,8 @@ Quickstart
 
 In your virtualenv, install {{ cookiecutter.formal_name }}, and then run it::
 
-    $ pip install {{ cookiecutter.name }}
-    $ {{ cookiecutter.name }}
+    $ pip install {{ cookiecutter.repo_name }}
+    $ {{ cookiecutter.repo_name }}
 
 This will pop up a GUI window.
 

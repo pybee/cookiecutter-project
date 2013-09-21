@@ -2,7 +2,7 @@
 import sys
 
 from setuptools import setup
-from {{ cookiecutter.name }} import VERSION
+from {{ cookiecutter.repo_name }} import VERSION
 
 try:
     readme = open('README.rst')
@@ -15,18 +15,18 @@ if sys.version_info < (2, 7):
     required_pkgs.append('argparse')
 
 setup(
-    name='{{ cookiecutter.name }}',
+    name='{{ cookiecutter.repo_name }}',
     version=VERSION,
     description='{{ cookiecutter.description }}',
     long_description=long_description,
     author='Russell Keith-Magee',
     author_email='russell@keith-magee.com',
-    url='http://pybee.org/{{ cookiecutter.name }}',
+    url='http://pybee.org/{{ cookiecutter.repo_name }}',
     packages=[
-        '{{ cookiecutter.name }}',
+        '{{ cookiecutter.repo_name }}',
     ],
     install_requires=required_pkgs,
-    scripts=['scripts/{{ cookiecutter.name }}'],
+    scripts=['scripts/{{ cookiecutter.repo_name }}'],
     license='New BSD',
     classifiers=[
         'Development Status :: 4 - Beta',
