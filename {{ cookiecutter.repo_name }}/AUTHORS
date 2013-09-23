@@ -1,4 +1,4 @@
-{{ cookiecutter.formal_name }} was originally created in July 2013.
+{{ cookiecutter.formal_name }} was originally created in {{ cookiecutter.month }} {{ cookiecutter.year }}.
 
 The PRIMARY AUTHORS are (and/or have been):
     Russell Keith-Magee

@@ -26,7 +26,11 @@ setup(
         '{{ cookiecutter.repo_name }}',
     ],
     install_requires=required_pkgs,
-    scripts=['scripts/{{ cookiecutter.repo_name }}'],
+    entry_points={
+        'console_scripts': [
+            '{{ cookiecutter.repo_name }} = {{ cookiecutter.repo_name }}.__main__:main',
+        ]
+    },
     license='New BSD',
     classifiers=[
         'Development Status :: 4 - Beta',

@@ -2,5 +2,6 @@
     "repo_name": "projectname",
     "formal_name": "Project Name",
     "description": "One line description.",
-    "year": "2013"
+    "year": "2013",
+    "month": "January"
 }
