@@ -5,8 +5,8 @@ from Tkinter import *
 
 import argparse
 
-from bugjar import VERSION
-from bugjar.view import MainWindow
+from {{ cookiecutter.repo_name }} import VERSION
+from {{ cookiecutter.repo_name }}.view import MainWindow
 
 
 def main():
